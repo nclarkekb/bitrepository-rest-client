@@ -1,0 +1,20 @@
+[
+	{
+		"workflowID":"CompleteIntegrityCheck",
+		"workflowDescription":"Retrieves all fileIDs and checksums from all pillars and checks for all potential integrity problems.",
+		"nextRun":"13.11.15 13:48",
+		"lastRun":"12.11.15 13:48",
+		"lastRunDetails":"CompleteIntegrityCheck duration:  1s 275 ms\nCollect all fileIDs from pillars duration:  632 ms\nCollect all checksums from pillars duration:  626 ms\nHandle files that's no longer in the collection. duration:  1 ms\nHandle check for missing files. duration:  0 ms\nHandle validation of checksums. duration:  1 ms\nHandle missing checksums reporting. duration:  0 ms\nHandle obsolete checksums reporting. duration:  0 ms\nCreate statistics duration:  13 ms",
+		"executionInterval":"1d",
+		"currentState":"Idle"
+	},
+	{
+		"workflowID":"IncrementalIntegrityCheck",
+		"workflowDescription":"Retrieves new fileIDs and checksums from all pillars and checks for all potential integrity problems.",
+		"nextRun":"12.11.15 15:19",
+		"lastRun":"12.11.15 14:19",
+		"lastRunDetails":"IncrementalIntegrityCheck duration:  1s 203 ms\nCollect new fileIDs from pillars duration:  579 ms\nCollect new checksums from pillars duration:  615 ms\nHandle check for missing files. duration:  1 ms\nHandle validation of checksums. duration:  0 ms\nHandle missing checksums reporting. duration:  1 ms\nHandle obsolete checksums reporting. duration:  0 ms\nCreate statistics duration:  6 ms",
+		"executionInterval":" 1h",
+		"currentState":"Idle"
+	}
+]

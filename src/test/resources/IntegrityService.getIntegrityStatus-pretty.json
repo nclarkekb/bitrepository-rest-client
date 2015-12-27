@@ -1,0 +1,26 @@
+[
+	{
+		"pillarID":"checksum-pillar",
+		"totalFileCount":4,
+		"missingFilesCount":0,
+		"checksumErrorCount":0,
+		"obsoleteChecksumsCount":0,
+		"missingChecksumsCount":0
+	},
+	{
+		"pillarID":"file1-pillar",
+		"totalFileCount":4,
+		"missingFilesCount":0,
+		"checksumErrorCount":0,
+		"obsoleteChecksumsCount":0,
+		"missingChecksumsCount":0
+	},
+	{
+		"pillarID":"file2-pillar",
+		"totalFileCount":4,
+		"missingFilesCount":0,
+		"checksumErrorCount":0,
+		"obsoleteChecksumsCount":0,
+		"missingChecksumsCount":0
+	}
+]

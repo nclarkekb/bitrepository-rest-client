@@ -1,0 +1,72 @@
+[
+	{
+		"OrigDateTime":1447341769653,
+		"AlarmCode":"INTEGRITY_ISSUE",
+		"AlarmRaiser":"integrity-service",
+		"AlarmText":"The following integrity issues were found:\nfile2-pillar is missing 1 file.",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447341562614,
+		"AlarmCode":"COMPONENT_FAILURE",
+		"AlarmRaiser":"file2-pillar",
+		"AlarmText":"The file 'bitrepository-integration-1.5-quickstart.tar' has been removed from the archive without it being removed from index. Removing it from index.",
+		"FileID":"bitrepository-integration-1.5-quickstart.tar"
+	},
+	{
+		"OrigDateTime":1447340675243,
+		"AlarmCode":"INTEGRITY_ISSUE",
+		"AlarmRaiser":"integrity-service",
+		"AlarmText":"The following integrity issues were found:Detected 1 files as removed from the collection.\nfile2-pillar is missing 1 file.",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447338112154,
+		"AlarmCode":"INTEGRITY_ISSUE",
+		"AlarmRaiser":"integrity-service",
+		"AlarmText":"Integrity check aborted while getting fileIDs due to failed contributors: [kbdisk01]",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447329056464,
+		"AlarmCode":"COMPONENT_FAILURE",
+		"AlarmRaiser":"audittrail-service",
+		"AlarmText":"Failed to collect audit trails. Error was: 'org.bitrepository.client.exceptions.NegativeResponseException: Failed operation. Cause(s):\n[58c582e3: GET_AUDIT_TRAILS: COMPONENT_FAILED: ContributorID kbdisk01 ResponseCode: null, Timeout for identifying contributor]'",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447327064182,
+		"AlarmCode":"INTEGRITY_ISSUE",
+		"AlarmRaiser":"integrity-service",
+		"AlarmText":"Integrity check aborted while getting fileIDs due to failed contributors: [kbdisk01]",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447325096449,
+		"AlarmCode":"COMPONENT_FAILURE",
+		"AlarmRaiser":"audittrail-service",
+		"AlarmText":"Failed to collect audit trails. Error was: 'org.bitrepository.client.exceptions.NegativeResponseException: Failed operation. Cause(s):\n[db0eead8: GET_AUDIT_TRAILS: COMPONENT_FAILED: ContributorID kbdisk01 ResponseCode: null, Timeout for identifying contributor]'",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447323224168,
+		"AlarmCode":"INTEGRITY_ISSUE",
+		"AlarmRaiser":"integrity-service",
+		"AlarmText":"Integrity check aborted while getting fileIDs due to failed contributors: [kbdisk01]",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447321041799,
+		"AlarmCode":"COMPONENT_FAILURE",
+		"AlarmRaiser":"audittrail-service",
+		"AlarmText":"Failed to collect audit trails. Error was: 'org.bitrepository.client.exceptions.NegativeResponseException: Failed operation. Cause(s):\n[17fc9a29: GET_AUDIT_TRAILS: COMPONENT_FAILED: ContributorID kbdisk01 ResponseCode: null, Timeout for identifying contributor]'",
+		"CollectionID":"netark"
+	},
+	{
+		"OrigDateTime":1447320861227,
+		"AlarmCode":"COMPONENT_FAILURE",
+		"AlarmRaiser":"audittrail-service",
+		"AlarmText":"Failed to collect audit trails. Error was: 'org.bitrepository.client.exceptions.NegativeResponseException: Failed operation. Cause(s):\n[0084abe2: GET_AUDIT_TRAILS: COMPONENT_FAILED: ContributorID kbdisk01 ResponseCode: null, Timeout for identifying contributor]'",
+		"CollectionID":"netark"
+	}
+]
